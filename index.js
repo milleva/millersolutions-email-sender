@@ -37,8 +37,10 @@ app.post('/direct-contact', function(req, res){
         }
     });
 
+    //res.redirect("http://localhost")
+
     res.writeHead(200, {'Content-Type': 'text/html'});
-    res.end('Thank you! Your message has been sent and we will be in touch with you shortly.');
+    res.end('Thank you! Your message has been sent and we will be in touch with you shortly. redirecting back in 3 seconds...');
 });
 
 
