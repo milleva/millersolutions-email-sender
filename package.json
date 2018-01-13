@@ -25,6 +25,8 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-redirect": "^1.2.2",
-    "nodemailer": "^4.4.1"
+    "nodemailer": "^4.4.1",
+    "regex": "^0.1.1",
+    "regex-email": "^1.0.2"
   }
 }
